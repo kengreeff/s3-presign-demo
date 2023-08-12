@@ -1,26 +1,36 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Intro
+
+Just a quick example of how to setup a simple endpoint to presign AWS requests and setup basic models for assets/attachments.
+
+## Watch us build a real project
+
+Live coding the entire MY4X4 Project:
+
+[Build MY4X4 - Youtube Playlist](https://youtube.com/playlist?list=PLCWWDssV3NgwUs9j3B48kCSHEI4fZGHLb)
+
+Subscribe to
+
+[Ken Greeff on Youtube](https://www.youtube.com/channel/UCYlF_e4J0EV3-iAX2Qp1OGA?sub_confirmation=1)
+
 ## Getting Started
 
-First, run the development server:
+Install packages
+
+```bash
+npm i
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/aws/presign](http://localhost:3000/api/aws/presign). This endpoint can be edited in `pages/api/aws/presign.ts`.
 
 ## Learn More
 
